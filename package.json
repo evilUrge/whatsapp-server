@@ -1,6 +1,6 @@
 {
   "name": "waps",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Send a message in a headless whatsapp web instance, or create a REST server as a private whatsapp API",
   "main": "index.js",
   "bin": "./index.js",
