@@ -40,7 +40,7 @@ npm i -g waps
 waps --help # to see the options
 waps server <port> # Start in server mode server
 waps message <message> <recipient> # Send a direct message
-waps wipe # Wipe all messages
+waps wipe # Wipe jwt secret
 ```
 ---
 ## Todo:
