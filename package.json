@@ -1,5 +1,5 @@
 {
-  "name": "whatsapp-server",
+  "name": "waps",
   "version": "0.1.0",
   "description": "Send a message in a headless whatsapp web instance, or create a REST server as a private whatsapp API",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evilUrge/whatsapp-headless-server.git"
+    "url": "git+https://github.com/evilUrge/whatsapp-server.git"
   },
   "author": "Gilad Maoz <gilad@maoc.dev>",
   "license": "MIT",
@@ -19,9 +19,9 @@
     "node": "16.x"
   },
   "bugs": {
-    "url": "https://github.com/evilUrge/whatsapp-headless-server/issues"
+    "url": "https://github.com/evilUrge/whatsapp-server/issues"
   },
-  "homepage": "https://github.com/evilUrge/whatsapp-headless-server#readme",
+  "homepage": "https://github.com/evilUrge/whatsapp-server#readme",
   "keywords": [
     "whatsup",
     "whatsapp",

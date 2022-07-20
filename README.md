@@ -33,14 +33,14 @@ npm start
 
 ## How to install
 ```bash
-npm i -g whatsapp-server
+npm i -g waps
 ```
 ## Available commands
 ```bash
-whatsapp-server --help # to see the options
-whatsapp-server server <port> # Start in server mode server
-whatsapp-server message <message> <recipient> # Send a direct message
-whatsapp-server wipe # Wipe all messages
+waps --help # to see the options
+waps server <port> # Start in server mode server
+waps message <message> <recipient> # Send a direct message
+waps wipe # Wipe all messages
 ```
 ---
 ## Todo:
