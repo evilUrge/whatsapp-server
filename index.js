@@ -1,3 +1,6 @@
+#!/bin/sh
+":"; //# comment; exec /usr/bin/env node --noharmony "$0" "$@"
+
 import { readFileSync } from "fs";
 import { Command } from "commander";
 import chalk from "chalk";
@@ -5,10 +8,10 @@ import pkg from "figlet";
 const { textSync } = pkg;
 import { default as server } from "./src/server.js";
 import { default as WhatsApp } from "./src/whatsapp.js";
-import { wipeSecret } from "./src/utils.js";
+import { BASE_PATH, wipeSecret } from "./src/utils.js";
 
 const { name, description, version } = JSON.parse(
-  readFileSync("./package.json", "utf8")
+  readFileSync(`${BASE_PATH}/package.json`, "utf8")
 );
 
 const app = new Command();
