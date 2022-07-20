@@ -12,8 +12,18 @@ express.js rest server for WhatsApp web.
 Because WhatsApp only have an API for their business accounts, and they don't have an API for personal accounts.
 
 Started by just having my home assistant server to be able to message my contacts.
+---
 
+---
+| :exclamation:  JWT Token is being created at the first run   |
+|----------------------------------------
+When running this for the first time, it will create a new JWT token and a secret.
+The secret will be stored in the project root, and the JWT token will be only presented once!
+Use this JWT token as a bearer token when making REST calls.
 
+You can reset the JWT token by running the `wipe` cmd (see below).
+
+---
 ## How to run locally
 ```bash
 npm install
