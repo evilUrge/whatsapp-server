@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/evilUrge/whatsapp-server.git"
   },
-  "author": "Gilad Maoz <gilad@maoc.dev>",
+  "author": "Gilad Maoz <gilad@maoz.dev>",
   "license": "MIT",
   "engines": {
     "node": ">=16.x"
